@@ -6,14 +6,19 @@
         private readonly List<IElevator> _elevators;
         private readonly int _totalFloors;
 
+        public List<IElevator> GetElevators() => _elevators;
+        public int GetCurrentFloor() => _totalFloors;
+
         public Building(int totalFloors, int numElevators, int capacity)
         {
             _totalFloors = totalFloors;
             _elevators = new List<IElevator>();
 
+            _totalFloors = totalFloors;
+
             for (int i = 1; i <= numElevators; i++)
             {
-                _elevators.Add(new Elevator(i, totalFloors, capacity));
+                _elevators.Add(new ElevatorLift(i, totalFloors, capacity));
             }
         }
 

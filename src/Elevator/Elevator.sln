@@ -5,9 +5,13 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{0D55C37B-250B-494C-9755-3661E8201666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevator.ConsoleApp", "Apps\Elevator.ConsoleApp\Elevator.ConsoleApp.csproj", "{8F7DAC12-B0A6-477B-A38D-EEE4AB30CC90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elevator.ConsoleApp", "Apps\Elevator.ConsoleApp\Elevator.ConsoleApp.csproj", "{8F7DAC12-B0A6-477B-A38D-EEE4AB30CC90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevator.Domain", "Apps\Elevator.Domain\Elevator.Domain.csproj", "{52BB252C-256D-4B61-A47F-8348FEEFA14E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elevator.Domain", "Apps\Elevator.Domain\Elevator.Domain.csproj", "{52BB252C-256D-4B61-A47F-8348FEEFA14E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B87C3994-4DA2-4F0D-BD55-44F15647B9DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "Tests\Elevator.UnitTest\UnitTest.csproj", "{0E6B4D29-1FCF-4E1C-AEDE-664B7E05EB3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,10 @@ Global
 		{52BB252C-256D-4B61-A47F-8348FEEFA14E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52BB252C-256D-4B61-A47F-8348FEEFA14E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52BB252C-256D-4B61-A47F-8348FEEFA14E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6B4D29-1FCF-4E1C-AEDE-664B7E05EB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6B4D29-1FCF-4E1C-AEDE-664B7E05EB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6B4D29-1FCF-4E1C-AEDE-664B7E05EB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6B4D29-1FCF-4E1C-AEDE-664B7E05EB3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8F7DAC12-B0A6-477B-A38D-EEE4AB30CC90} = {0D55C37B-250B-494C-9755-3661E8201666}
 		{52BB252C-256D-4B61-A47F-8348FEEFA14E} = {0D55C37B-250B-494C-9755-3661E8201666}
+		{0E6B4D29-1FCF-4E1C-AEDE-664B7E05EB3F} = {B87C3994-4DA2-4F0D-BD55-44F15647B9DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70B1A520-07C9-43F3-B917-DBE8EF1B956B}

@@ -1,7 +1,7 @@
 ﻿namespace Elevator.Domain
 {
   
-    public class Elevator : IElevator
+    public class ElevatorLift : IElevator
     {
         public int Id { get; private set; }
         private int _currentFloor = 1;
@@ -9,7 +9,11 @@
         private readonly int _capacity;
         private int _occupants = 0;
 
-        public Elevator(int id, int totalFloors, int capacity)
+        public int GetCurrentFloor() => _currentFloor;
+        public int GetOccupants() => _occupants;
+
+ 
+        public ElevatorLift(int id, int totalFloors, int capacity)
         {
             Id = id;
             _totalFloors = totalFloors;
