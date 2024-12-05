@@ -22,3 +22,5 @@ Gemfile.lock
 /src/Elevator/Apps/Elevator.Domain/obj
 /src/Elevator/Apps/Elevator.ConsoleApp/bin/Debug/net6.0
 /src/Elevator/Apps/Elevator.Domain/bin/Debug/net6.0
+/src/Elevator/Tests/Elevator.UnitTest/obj
+/src/Elevator/Tests/Elevator.UnitTest/bin
